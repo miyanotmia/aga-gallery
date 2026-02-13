@@ -1,0 +1,20 @@
+@use './variables' as *;
+
+body {
+  font-family: $font-sans;
+  line-height: 1.6;
+  color: #2C2C2C;
+  background: #fde68a;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-serif;
+  letter-spacing: -0.02em;
+  color: #1a1a1a;
+}
+
+p, span, a {
+  font-family: $font-sans;
+}

@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1,
+        "title": "Adrienne ( Woman with Bangs )",
+        "artist":"Amedeo Modigliani",
+        "image": "./images/adrienne_woman_with_bangs_1963.10.171.jpg",
+        "price": 300
+    },
+     {
+        "id": 2,
+        "title": "Roma Woman with Bangs",
+        "artist": "Amedeo Modigliani",
+        "image": "/art-gallery/public/images/adrienne_woman_with_bangs_1963.10.171.jpg",
+        "price": 200
+    },
+     {
+        "id": 3,
+        "title": "Chaim Soutine",
+        "artist": "Amedeo Modigliani",
+        "image": "./images/chaim_soutine_1963.10.47.jpg",
+        "price":100
+    },
+     {
+        "id": 4,
+        "title":"Madame Kisling",
+        "artist": "Amedeo Modigliani",
+        "image": "./images/madame_kisling_1963.10.175.jpg",
+        "price":5000
+    },
+     {
+        "id": 5,
+        "title":"Mrs.Francis Howard",
+        "artist": "Ambrose McEvoy",
+        "image":"./images/mrs._francis_howard_1986.34.1.jpg",
+        "price":1525
+    }, 
+    {
+        "id": 6,
+        "title":"Miss Mathilde Townsend",
+        "artist": "John Singer Sargent",
+        "image": "./images/miss_mathilde_townsend_1952.3.1.jpg",
+        "price":1025
+    },
+     {
+        "id": 7,
+        "title": "The Smiling Girl",
+        "artist": "Anonymous Artist",
+        "image":"./images/the_smiling_girl_1937.1.55.jpg",
+        "price":12345678
+    },
+     {
+        "id": 8,
+        "title": "Countess Ebba Sparre",
+        "artist": "Sebastien Bourdon",
+        "image": "./images/countess_ebba_sparre_1952.5.34.jpg",
+        "price": 2345678
+     },
+     {
+        "id": 9,
+        "title": "Hugo Reisinger",
+        "artist": "Anders Zorn",
+        "image": "./images/hugo_reisinger_1957.4.3.jpg",
+        "price": 345678
+    },
+     {
+        "id": 10,
+        "title": "Marchesa Bridiga Spinola Doria",
+        "artist": "Sir Peter Paul Rubens",
+        "image":"./images/marchesa_brigida_spinola_doria_1961.9.60.jpg",
+        "price": 45678
+    },
+     {
+        "id": 11,
+        "title": "Still Life with Goose and Game before a Country Estate",
+        "artist": "Jax Weenix",
+        "image":"./images/still_life_with_goose_and_game_before_a_country_estate_2004.39.1.jpg",
+        "price":5678
+    },
+     {
+        "id": 12,
+        "title": "Self Portrait",
+        "artist": "Abbott Handerson Thayer",
+        "image": "./images/self-portrait_2014.136.14.jpg",
+        "price":678
+    },
+     {
+        "id": 13,
+        "title":"Still Life with Cake, Lemon, Strawberries, and Glass",
+        "artist": "John Frederick Peto",
+        "image":"./images/still_life_with_cake_lemon_strawberries_and_glass_2014.18.37.jpg",
+        "price":78
+    },
+     {
+        "id": 14,
+        "title":"Bouquet of Flowers in a Glass",
+        "artist":"Ambrosius Bosschaert",
+        "image":"./images/bouquet_of_flowers_in_a_glass_vase_1996.35.1.jpg",
+        "price":8
+    },
+     {
+        "id": 15,
+        "title": "Vanitas Still Life",
+        "artist":"Jan van Kessel the Elder",
+        "image": "./images/vanitas_still_life_1995.74.2.jpg",
+        "price":87
+    },
+     {
+        "id": 16,
+        "title":"Still Life with Flowers Surrounded by Insects and a Snail",
+        "artist": "Clara Peeters",
+        "image":"./images/still_life_with_flowers_surrounded_by_insects_and_a_snail_2018.144.1.jpg",
+        "price":876
+    },
+    {
+        
+        "title":"The Lute Player",
+        "artist": "Albert Besnard",
+        "image":"/images/the-lute-player.jpg",
+        "price":1000
+    },
+    {
+        
+        "title":"Head of Dr.Baur",
+        "artist": "Ernst Ludwig Kirchner",
+        "image":"/images/hHead-of-Dr-Bauer",
+        "price":10000000
+    }
+]

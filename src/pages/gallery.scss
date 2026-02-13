@@ -1,0 +1,46 @@
+@use '../styles/variables' as *;
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-top: 100px;
+}
+.gallery-card{
+    background: #f7f6f3;
+    border-radius: 16px;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+     &:hover{
+        transform: translateY(-6px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+     }
+     
+     img{
+      padding-top: 20px;
+      padding-left: 25px;
+        
+      width:80%;
+        height: 280px;
+        object-fit: cover;
+     }
+     .card-text{
+      width: 90%;
+      text-align: center;
+     }
+     .gallery-button{
+      width: 50%;
+      
+      margin-right: 100px;
+      margin-bottom: 10px;
+      margin-left: 75px;
+      
+     }
+}
