@@ -24,7 +24,7 @@ import productRoutes from "./routes/products.js";
 app.use("/api/products", productRoutes);
 
 //server
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+const API_URL = import.meta.env.VITE_API_URL || 5000;
+fetch(`${API_URL}/api/products`)
 
 
