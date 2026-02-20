@@ -3,11 +3,13 @@ import { FREEBIE_SYMBOL, FREEBIE_WORD } from "../utils/currency";
 import { Link } from "react-router-dom";
 import "./gallery.scss";
 
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+
 function Gallery ({addToCart, cart}) {
     const [items, setItems] = useState([]);
 
 useEffect(() => {
-fetch("http://localhost:5000/api/products")
+fetch(`${API_URL}/api/products`)
 .then((res) => res.json())
 .then ((data) => {
     setItems(data);

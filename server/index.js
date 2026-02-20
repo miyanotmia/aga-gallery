@@ -3,14 +3,14 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 
-//import productRoutes from "./routes/products.js";
-//import subscriberRoutes from "./routes/subscribers.js";
-
 dotenv.config();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+    origin: process.env.VERCEL_URL ||"http://localhost:5173",
+    credentials: true
+}));
 app.use(express.json());
 
 //db connect
