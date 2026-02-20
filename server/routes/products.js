@@ -1,5 +1,5 @@
 import express from "express";
-import product from  "../models/product.js";
+import Product from  "../models/product.js";
 
 const router= express.Router();
 
@@ -7,7 +7,7 @@ const router= express.Router();
 
 router.get("/", async (req,res) => {
     try{
-        const products = await product.find();
+        const products = await Product.find();
         res.json(products);
     } catch (err) {
         res.status(500).json({ error: "Error fetching products"});
