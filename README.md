@@ -1,16 +1,27 @@
-# React + Vite
+art_ecommerce_cap
+Capstone project for NPower's Path2Tech Program.
+Anything goes Art is a Gallery-like art website built as a final project by Miya Simms in 2025 for her App Development certificate program. The idea behind this project was to emulate the  checkout feature seen on thesimsresource.com where VIP members can select  custom content to a cart instead of downloading pieces one by one. Once the user is done select pieces they can download everything in their basket all at once in a zip file.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Instead of taking actual payment, the site uses “Freebies” a fictional monetary value meaning free. The ideal path a user would take would be:
+     Browse the site
+    Add liked images to cart
+    Check out / subscribe
+    Download their cart of images in the form of a zip file
 
-Currently, two official plugins are available:
+The concept of Anything being art is truly something the developer believes, given her own connection with art, nature,  history, and how that intersects with beauty. The idea being art invoke emotion or powerful thoughts. While this was created as a project for a class this was also meant to be a way for the developer to come back and sharpen her skills by maintaining the site with updated artworks as well .
+All the artworks on the site have been collected from the National Gallery of Art under the Open Access policy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+Future Features
+Priority 1
+[ ]  save cart 
+[ ]  Create image detail pages for 3 images on homepage
+[ ]  animation for successfully added item to cart
+[ ]  search & filter functions
+[ ]  Cart download
+[ ]  Update Subscriber form
+Priority 2:
+[ ]  change cart and quantity buttons to image w. React icons
+[ ]  change favicon
+[ ] collapsible details page for images
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
