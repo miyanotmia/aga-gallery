@@ -1,6 +1,7 @@
 import { FREEBIE_SYMBOL, FREEBIE_WORD } from "../utils/currency";
 import SubscribeForm from "../components/SubscribeForm";
 import { IoIosAdd } from "react-icons/io";
+import { FiMinus } from "react-icons/fi";
 import "./checkout.scss";
 
 function Checkout ({cart, increaseQty, decreaseQty, setCart}) {
@@ -50,7 +51,7 @@ alert("Download feature coming soon!");
             <div className="qty">
                 <button className="qty-btn" onClick={()=> decreaseQty(art._id)}
                 >
-                    -
+                    <FiMinus />
                 </button>
                 
                 <span className="qty-value">{art.qty}</span>
