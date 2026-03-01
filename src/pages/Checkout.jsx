@@ -1,5 +1,6 @@
 import { FREEBIE_SYMBOL, FREEBIE_WORD } from "../utils/currency";
 import SubscribeForm from "../components/SubscribeForm";
+import { IoIosAdd } from "react-icons/io";
 import "./checkout.scss";
 
 function Checkout ({cart, increaseQty, decreaseQty, setCart}) {
@@ -57,7 +58,7 @@ alert("Download feature coming soon!");
                 <button className="qty-btn"
                 onClick={() => increaseQty(art._id)}
                 >
-                    +
+                    <IoIosAdd />
                 </button>
             </div>
             </div>
