@@ -51,10 +51,10 @@ alert("Download feature coming soon!");
             <div className="qty">
                 <button className="qty-btn" onClick={()=> decreaseQty(art._id)}
                 >
-                    <FiMinus />
+                <FiMinus />
                 </button>
                 
-                <span className="qty-value">{art.qty}</span>
+                <p className="qty-value">{art.qty}</p>
 
                 <button className="qty-btn"
                 onClick={() => increaseQty(art._id)}
