@@ -25,3 +25,5 @@ Priority 2:
 [ ]  change favicon
 [ ] collapsible details page for images
 
+Priority 4:
+[ ] Kids Section where kids can make their own art like on "Paint" and upload to a digital gallery for all to see this will only show kids/user name 
