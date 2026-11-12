@@ -19,10 +19,12 @@ router.get("/", async (req,res) => {
         console.log("Products found:", products.length);
         res.json(products);
     } catch (err) {
-        console.error("Error:", err);
-        res.status(500).json({ error: "Error fetching products"});
-    }
-});
+  console.error('Error fetching products:', err);   // full stack trace in Render logs
+  res.status(500).json({
+    error: 'Error fetching products',
+    details: err.message,                            // temporary, remove once fixed
+  });
+    }});
 
 //POST new product
 router.post("/", async(req, res)=>{
